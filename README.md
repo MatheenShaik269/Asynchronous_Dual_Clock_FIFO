@@ -63,18 +63,19 @@ FIFO is full when:
 DATA_WIDTH = 8;   // Width of data bus
 ADDR_WIDTH = 4;   // Depth = 2^ADDR_WIDTH
 
----
+## 📂 Project Structure
 
+```text
 async_fifo_project/
 │
 ├── async_fifo.v        # RTL Design (FIFO)
 ├── async_fifo_tb.v     # Testbench
 ├── README.md
-├── simulation_log.txt  #  TCL output
+├── simulation_log.txt  # TCL output
 └── images/
     └── waveform.png
+```
 
----
 
 🧪 Testbench Description
 
